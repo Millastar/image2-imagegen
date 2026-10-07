@@ -1,0 +1,30 @@
+# Local credentials and endpoint settings
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Generated content, logs, caches and dependencies
+node_modules/
+output/
+outputs/
+generated/
+*.log
+*.zip
+*.tar
+*.gz
+.cache/
+__pycache__/
+
+# Editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

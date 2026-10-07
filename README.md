@@ -1,6 +1,6 @@
 # Image2 ImageGen for Codex
 
-我做这个插件，是因为在我使用的 Codex 环境中，直接让 Codex 画图会调用内置的 `imagegen`，使用 `image1.5` 生成图片，无法直接使用 `image2`；因此，我采用“插件 + MCP”的方式接入 `image2` 生图。
+> 我做这个插件，是因为直接让 Codex 画图会调用内置的 `imagegen`，使用 `image1.5` 生成图片，无法直接使用 `image2`；因此，采用“插件 + MCP”的方式接入 `image2` 生图。
 
 一个通过自定义 MCP 工具调用 OpenAI 兼容图片接口的 Codex 插件。支持图片生成、使用本地图片进行编辑，以及主站失败后的备用站切换。
 

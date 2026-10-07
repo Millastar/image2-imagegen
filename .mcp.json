@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "image2": {
+      "title": "GPT Image 2",
+      "description": "Generate and edit raster images through an OpenAI-compatible GPT Image 2 endpoint.",
+      "cwd": ".",
+      "command": "node",
+      "args": [
+        "./scripts/image2-mcp.cjs",
+        "--stdio"
+      ],
+      "env_vars": [
+        "IMAGE2_API_KEY",
+        "IMAGE2_FALLBACK_API_KEY",
+        "IMAGE2_BASE_URL",
+        "IMAGE2_FALLBACK_BASE_URL",
+        "IMAGE2_MODEL",
+        "IMAGE2_FALLBACK_MODEL",
+        "IMAGE2_TIMEOUT_MS"
+      ],
+      "startup_timeout_sec": 10,
+      "tool_timeout_sec": 1500
+    }
+  }
+}
